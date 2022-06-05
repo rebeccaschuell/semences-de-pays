@@ -18,11 +18,19 @@ header h1 {
   width: 120px;
   padding-top: 30px;
   margin-top: 0;
+  padding-left: 36px;
+  padding-right: 36px;
 }
 
 a {
   font-family: 'Thasadith', sans-serif;
   text-decoration: none;
+}
+
+.logo-organic {
+  width: 30px;
+  padding-left: 142px;
+  padding-right: 30px;
 }
 
 /* font-family: 'Pompiere', cursive;

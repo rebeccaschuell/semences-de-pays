@@ -91,11 +91,20 @@ main h3 {
 
 .map {
   width: 200px;
+  display: block;
+  align-items: center;
 }
 
 tr {
   font-family: 'Thasadith', sans-serif;
   font-size: 12px;
+  align-items: center;
+}
+
+.pin {
+  width: 20px;
+  margin: 0;
+  margin-right: 5px;
 }
 
 /* font-family: 'Pompiere', cursive;

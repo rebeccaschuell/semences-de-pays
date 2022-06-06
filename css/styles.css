@@ -72,7 +72,7 @@ main img {
 .button {
   padding-top: 1000px;
   margin-left: 70px;
-  margin-right: 305px;
+  /* margin-right: 100px; */
   background: none;
   border: none;
 }
@@ -132,6 +132,30 @@ td {
   width: 20px;
   margin: 0;
   margin-right: 5px;
+}
+
+footer {
+  background-color: #708b75;
+  margin-left: 130px;
+}
+
+.logo {
+  width: 60px;
+}
+
+footer h2 {
+  font-family: 'Pompiere', cursive;
+  font-size: 30px;
+}
+
+footer p {
+  font-family: 'Thasadith', sans-serif;
+  font-size: 12px;
+}
+
+footer a {
+  font-family: 'Thasadith', sans-serif;
+  font-size: 12px;
 }
 
 /* font-family: 'Pompiere', cursive;

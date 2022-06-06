@@ -95,8 +95,21 @@ main h3 {
   margin-right: 40px;
 }
 
-.seeds {
-  width: 42px;
+.pumpkin-seeds {
+  width: 40px;
+  margin-left: 30px;
+  margin-top: 0;
+}
+
+.bean-seeds {
+  width: 80px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.shops {
+  margin-left: 70px;
+  margin-top: 40px;
 }
 
 .map {
@@ -137,6 +150,15 @@ td {
 footer {
   background-color: #708b75;
   margin-left: 130px;
+}
+
+/* footer div {
+  background-image: url(../img/footer.svg);
+  background-size: 190px;
+} */
+
+footer h2 {
+  margin-left: 0;
 }
 
 .logo {

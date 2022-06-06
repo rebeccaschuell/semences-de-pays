@@ -5,7 +5,7 @@ scroll-behavior: smooth;
 body {
   background-image: url(../img/background.svg);
   background-repeat: no-repeat;
-  background-size: 375px;
+  background-size: 500px;
   max-width: 375px;
   margin: 0;
   margin-left: 20px;
@@ -62,11 +62,44 @@ main img {
 .products {
   background-image: url(../img/products.svg);
   background-repeat: no-repeat;
+  background-position: right;
   margin-top: 30px;
   margin-left: 10px;
   margin-right: 0;
   max-width: 330px;
   height: 1530px;
+}
+
+.beans-product {
+  margin-top: 140px;
+  margin-left: 175px;
+  margin-right: 55px;
+}
+
+.beans-name {
+  font-family: 'Pompiere', cursive;
+  font-size: 14px;
+  color: #ded9cc;
+  margin-left: 135px;
+  margin-right: 25px;
+  text-align: center;
+  line-height: 18px;
+}
+
+.flower-product {
+  margin-top: 160px;
+  margin-left: 185px;
+  margin-right: 75px;
+}
+
+.flower-name {
+  font-family: 'Pompiere', cursive;
+  font-size: 14px;
+  color: #ded9cc;
+  margin-left: 155px;
+  margin-right: 40px;
+  text-align: center;
+  line-height: 18px;
 }
 
 .button {
@@ -82,17 +115,19 @@ main h3 {
   font-size: 24px;
   color: #ded9cc;
   padding-top: 60px;
-  margin-left: 120px;
+  margin-left: 145px;
   margin-bottom: 12px;
-  margin-right: 40px;
+  margin-right: 35px;
 }
 
-.name-product {
+.pumpkin-name {
   font-family: 'Pompiere', cursive;
   font-size: 14px;
   color: #ded9cc;
-  margin-left: 120px;
+  margin-left: 150px;
   margin-right: 40px;
+  text-align: center;
+  line-height: 18px;
 }
 
 .pumpkin-seeds {
@@ -178,6 +213,12 @@ footer p {
 footer a {
   font-family: 'Thasadith', sans-serif;
   font-size: 12px;
+}
+
+.packaging {
+  width: 74px;
+  margin-left: 210px;
+  box-shadow: 10px 10px #ded9cc;
 }
 
 /* font-family: 'Pompiere', cursive;

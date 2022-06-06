@@ -85,5 +85,18 @@ main h3 {
   margin-left: 150px;
 }
 
+.seeds {
+  width: 42px;
+}
+
+.map {
+  width: 200px;
+}
+
+tr {
+  font-family: 'Thasadith', sans-serif;
+  font-size: 12px;
+}
+
 /* font-family: 'Pompiere', cursive;
 font-family: 'Thasadith', sans-serif; */

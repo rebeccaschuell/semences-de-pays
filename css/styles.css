@@ -70,9 +70,11 @@ main div {
 }
 
 .button {
-  padding-top: 1020px;
+  padding-top: 1000px;
   margin-left: 70px;
   margin-right: 305px;
+  background: none;
+  border: none;
 }
 
 main h3 {
@@ -98,9 +100,10 @@ main h3 {
 }
 
 .map {
-  width: 200px;
   display: block;
   align-items: center;
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 
 tr {

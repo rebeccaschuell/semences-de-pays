@@ -59,14 +59,14 @@ main img {
   margin-top: 30px;
 }
 
-main div {
+.products {
   background-image: url(../img/products.svg);
   background-repeat: no-repeat;
   margin-top: 30px;
   margin-left: 10px;
   margin-right: 0;
   max-width: 330px;
-  height: 2000px;
+  height: 1530px;
 }
 
 .button {
@@ -112,8 +112,20 @@ tr {
   align-items: center;
 }
 
+.information {
+  text-indent: 16%;
+}
+
 .right-column {
-  align-items: right;
+  text-indent: 18%;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  padding-bottom: 15px;
 }
 
 .pin {

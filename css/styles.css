@@ -12,10 +12,32 @@ body {
   margin-right: 30px;
 }
 
-header {
+/* header {
   background-color: #708b75;
   /* margin-left: 130px; */
+  /* max-width: 201px;
+} */
+
+.logo-title {
+  background-color: #708b75;
   max-width: 201px;
+  padding-bottom: 30px;
+}
+
+.navigation {
+  justify-content: flex-start;
+  max-width: 180px;
+  padding-top: 184px;
+  margin-right: 5px;
+}
+
+.navigation a {
+  color: #5c7a60;
+}
+
+.header {
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 header h1 {
@@ -206,7 +228,7 @@ td {
   justify-content: flex-start;
   max-width: 180px;
   padding-top: 124px;
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 .contact a {

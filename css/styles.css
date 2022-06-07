@@ -102,7 +102,7 @@ div .products {
 }
 
 .beans-product {
-  margin-top: 140px;
+  margin-top: 130px;
   margin-left: 175px;
   margin-right: 55px;
 }
@@ -118,7 +118,7 @@ div .products {
 }
 
 .flower-product {
-  margin-top: 150px;
+  margin-top: 140px;
   margin-left: 185px;
   margin-right: 75px;
 }
@@ -141,7 +141,7 @@ div .products {
 .visit {
   font-size: 30px;
   color: #5c7a60;
-  padding-top: 296px;
+  padding-top: 316px;
   margin-left: 60px;
   /* margin-right: 100px; */
   background: none;
@@ -303,6 +303,7 @@ footer a {
 figcaption {
   font-family: 'Thasadith', sans-serif;
   font-size: 8px;
+  font-weight: 800;
 }
 
 figure {

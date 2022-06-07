@@ -5,11 +5,14 @@ scroll-behavior: smooth;
 body {
   background-image: url(../img/background.svg);
   background-repeat: no-repeat;
-  background-size: 500px;
+  background-position: center;
+  background-color: #708b75;
   max-width: 375px;
+  height: ;
   margin: 0;
   margin-left: 20px;
   margin-right: 30px;
+  margin: auto;
 }
 
 /* header {
@@ -292,7 +295,11 @@ footer a {
 
 figcaption {
   font-family: 'Thasadith', sans-serif;
-  font-size: 10px;
+  font-size: 8px;
+}
+
+figure {
+  margin: 0;
 }
 
 /* font-family: 'Pompiere', cursive;

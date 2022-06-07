@@ -40,8 +40,8 @@ body {
 }
 
 .header {
-    display: flex;
-    flex-direction: row-reverse;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 header h1 {
@@ -69,6 +69,7 @@ a {
 main h2 {
   font-family: 'Pompiere', cursive;
   font-size: 30px;
+  font-weight: 100;
   color: #5c7a60;
   text-align: center;
   margin-top: 60px;
@@ -77,7 +78,7 @@ main h2 {
 
 main p {
   font-family: 'Thasadith', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -90,13 +91,10 @@ main img {
 .products {
   background-image: url(../img/products.svg);
   background-repeat: no-repeat;
-  /* background-position: right; */
   margin-top: 30px;
-  margin-left: 10px;
-  margin-right: 0;
+  margin-left: 55px;
   max-width: 330px;
   height: 1530px;
-  margin: 0;
 }
 
 div .products {
@@ -143,7 +141,7 @@ div .products {
 .visit {
   font-size: 30px;
   color: #5c7a60;
-  padding-top: 332px;
+  padding-top: 296px;
   margin-left: 60px;
   /* margin-right: 100px; */
   background: none;
@@ -153,6 +151,7 @@ div .products {
 main h3 {
   font-family: 'Pompiere', cursive;
   font-size: 24px;
+  font-weight: 100;
   color: #ded9cc;
   padding-top: 60px;
   margin-left: 145px;
@@ -196,16 +195,16 @@ main h3 {
 
 tr {
   font-family: 'Thasadith', sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   align-items: center;
 }
 
 .information {
-  text-indent: 16%;
+  text-indent: 14%;
 }
 
 .right-column {
-  text-indent: 18%;
+  text-indent: 16%;
 }
 
 table {
@@ -238,7 +237,7 @@ td {
   justify-content: flex-start;
   max-width: 180px;
   padding-top: 124px;
-  margin-right: 50px;
+  margin-right: 30px;
 }
 
 .contact a {
@@ -271,21 +270,22 @@ footer h2 {
   font-family: 'Pompiere', cursive;
   color: #5c7a60;
   font-size: 30px;
+  font-weight: 100;
 }
 
 footer p {
   font-family: 'Thasadith', sans-serif;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 footer a {
   font-family: 'Thasadith', sans-serif;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .packaging {
-  width: 74px;
-  margin-left: 210px;
+  width: 80px;
+  margin-left: 200px;
   box-shadow: 10px 10px #ded9cc;
 }
 

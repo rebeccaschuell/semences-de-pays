@@ -60,11 +60,6 @@ a {
   line-height: 24px;
 }
 
-
-
-
-
-
 main h2 {
   font-family: 'Pompiere', cursive;
   font-size: 30px;
@@ -75,17 +70,8 @@ main h2 {
   margin-bottom: 30px;
 }
 
-main p {
-  font-family: 'Thasadith', sans-serif;
-  font-size: 18px;
-  margin-top: 0;
-  margin-bottom: 0;
-  margin-left: 10px;
-}
-
-main img {
-  margin-left: 10px;
-  margin-top: 30px;
+.substitle {
+  text-align: center;
 }
 
 .products {
@@ -97,8 +83,36 @@ main img {
   height: 1530px;
 }
 
-div .products {
-  margin: 0;
+main h3 {
+  font-family: 'Pompiere', cursive;
+  font-size: 24px;
+  font-weight: 100;
+  color: #ded9cc;
+  padding-top: 60px;
+  margin-left: 145px;
+  margin-bottom: 12px;
+  margin-right: 35px;
+}
+
+.pumpkin {
+  font-family: 'Pompiere', cursive;
+  font-size: 14px;
+  color: #ded9cc;
+  margin-left: 150px;
+  margin-right: 40px;
+  text-align: center;
+  line-height: 18px;
+}
+
+.packaging {
+  width: 85px;
+  margin-left: 200px;
+  box-shadow: 10px 10px #ded9cc;
+}
+
+main img {
+  margin-left: 10px;
+  margin-top: 30px;
 }
 
 .beans-product {
@@ -148,42 +162,47 @@ div .products {
   border: none;
 }
 
-main h3 {
-  font-family: 'Pompiere', cursive;
-  font-size: 24px;
-  font-weight: 100;
-  color: #ded9cc;
-  padding-top: 60px;
-  margin-left: 145px;
-  margin-bottom: 12px;
-  margin-right: 35px;
+main p {
+  font-family: 'Thasadith', sans-serif;
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 10px;
 }
 
-.pumpkin {
-  font-family: 'Pompiere', cursive;
-  font-size: 14px;
-  color: #ded9cc;
-  margin-left: 150px;
-  margin-right: 40px;
-  text-align: center;
-  line-height: 18px;
+.photography {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.photography img {
+  width: 202px;
+  margin-left: 0;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+
+figure {
+  margin: 0;
+  margin-right: 5px;
+}
+
+figcaption {
+  font-family: 'Thasadith', sans-serif;
+  font-size: 8px;
+  font-weight: 800;
+}
+
+.shops {
+  margin-left: 70px;
+  margin-top: 40px;
 }
 
 .pumpkin-seeds {
   width: 40px;
   margin-left: 30px;
   margin-top: 0;
-}
-
-.bean-seeds {
-  width: 80px;
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
-.shops {
-  margin-left: 70px;
-  margin-top: 40px;
 }
 
 .map {
@@ -193,22 +212,14 @@ main h3 {
   margin-bottom: 30px;
 }
 
+table {
+  width: 100%;
+}
+
 tr {
   font-family: 'Thasadith', sans-serif;
   font-size: 14px;
   align-items: center;
-}
-
-.information {
-  text-indent: 14%;
-}
-
-.right-column {
-  text-indent: 16%;
-}
-
-table {
-  width: 100%;
 }
 
 td {
@@ -220,6 +231,34 @@ td {
   margin: 0;
   margin-right: 5px;
 }
+
+.information {
+  text-indent: 14%;
+}
+
+.right-column {
+  text-indent: 16%;
+}
+
+.bean-seeds {
+  width: 80px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* footer {
   background-color: #708b75; */
@@ -284,38 +323,6 @@ footer a {
   font-size: 14px;
 }
 
-.packaging {
-  width: 85px;
-  margin-left: 200px;
-  box-shadow: 10px 10px #ded9cc;
-}
-
-.photography img {
-  width: 202px;
-  margin-left: 0;
-}
-
-.photography {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
-
-figcaption {
-  font-family: 'Thasadith', sans-serif;
-  font-size: 8px;
-  font-weight: 800;
-}
-
-figure {
-  margin: 0;
-  margin-right: 5px;
-}
-
-.substitle {
-  text-align: center;
-}
-
 /* font-family: 'Pompiere', cursive;
 font-family: 'Thasadith', sans-serif; */
 
@@ -323,4 +330,8 @@ font-family: 'Thasadith', sans-serif; */
   background-color: #708b75;
   /* margin-left: 130px; */
   /* max-width: 201px;
+} */
+
+/* div .products {
+  margin: 0;
 } */

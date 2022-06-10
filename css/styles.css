@@ -14,35 +14,16 @@ body {
   margin: auto;
 }
 
-/* header {
-  background-color: #708b75;
-  /* margin-left: 130px; */
-  /* max-width: 201px;
-} */
+.header {
+  display: flex;
+  flex-direction: row-reverse;
+}
 
 .logo-title {
   background-color: #708b75;
   max-width: 202px;
-  /* padding-bottom: 30px; */
   height: 270px;
   margin-right: 5px;
-}
-
-.navigation {
-  justify-content: flex-start;
-  max-width: 220px;
-  padding-top: 180px;
-  margin-right: 40px;
-}
-
-.navigation a {
-  color: #5c7a60;
-  line-height: 24px;
-}
-
-.header {
-  display: flex;
-  flex-direction: row-reverse;
 }
 
 header h1 {
@@ -54,18 +35,35 @@ header h1 {
   padding-bottom: 30px;
 }
 
-a {
-  font-family: 'Pompiere', cursive;
-  font-size: 18px;
-  text-decoration: none;
-}
-
 .logo-organic {
   width: 30px;
   padding-left: 142px;
   padding-right: 30px;
   margin-bottom: 30px;
 }
+
+.navigation {
+  justify-content: flex-start;
+  max-width: 220px;
+  padding-top: 180px;
+  margin-right: 40px;
+}
+
+a {
+  font-family: 'Pompiere', cursive;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.navigation a {
+  color: #5c7a60;
+  line-height: 24px;
+}
+
+
+
+
+
 
 main h2 {
   font-family: 'Pompiere', cursive;
@@ -320,3 +318,9 @@ figure {
 
 /* font-family: 'Pompiere', cursive;
 font-family: 'Thasadith', sans-serif; */
+
+/* header {
+  background-color: #708b75;
+  /* margin-left: 130px; */
+  /* max-width: 201px;
+} */

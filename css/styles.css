@@ -31,7 +31,6 @@ header h1 {
   padding-top: 30px;
   margin: 0;
   padding-left: 40px;
-  padding-right: 0;
   padding-bottom: 30px;
 }
 
@@ -94,13 +93,16 @@ main h3 {
   margin-right: 35px;
 }
 
+.items {
+font-family: 'Pompiere', cursive;
+font-size: 14px;
+color: #ded9cc;
+text-align: center;
+}
+
 .pumpkin {
-  font-family: 'Pompiere', cursive;
-  font-size: 14px;
-  color: #ded9cc;
   margin-left: 150px;
   margin-right: 40px;
-  text-align: center;
   line-height: 18px;
 }
 
@@ -122,12 +124,8 @@ main img {
 }
 
 .beans {
-  font-family: 'Pompiere', cursive;
-  font-size: 14px;
-  color: #ded9cc;
   margin-left: 135px;
   margin-right: 25px;
-  text-align: center;
   line-height: 18px;
 }
 
@@ -138,12 +136,8 @@ main img {
 }
 
 .flower {
-  font-family: 'Pompiere', cursive;
-  font-size: 14px;
-  color: #ded9cc;
   margin-left: 155px;
   margin-right: 40px;
-  text-align: center;
   line-height: 18px;
 }
 
@@ -157,7 +151,6 @@ main img {
   color: #5c7a60;
   padding-top: 316px;
   margin-left: 60px;
-  /* margin-right: 100px; */
   background: none;
   border: none;
 }
@@ -178,7 +171,6 @@ main p {
 
 .photography img {
   width: 202px;
-  margin-left: 0;
   margin-left: 10px;
   margin-top: 30px;
 }

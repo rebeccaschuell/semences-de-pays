@@ -192,6 +192,7 @@ figcaption {
   font-family: 'Thasadith', sans-serif;
   font-size: 8px;
   font-weight: 800;
+  padding-left: 10px;
 }
 
 .shops {
@@ -246,6 +247,52 @@ td {
   margin-bottom: 15px;
 }
 
+.footer {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.footer-rectangle {
+  background-color: #708b75;
+  max-width: 202px;
+  padding-bottom: 200px;
+  margin-right: 5px;
+}
+
+.logo {
+  width: 60px;
+  margin-left: 68px;
+  margin-right: 68px;
+  margin-top: 30px;
+}
+
+.contact {
+  justify-content: flex-start;
+  max-width: 180px;
+  padding-top: 124px;
+  margin-right: 20px;
+}
+
+footer h2 {
+  margin-left: 0;
+  margin-top: 0;
+  font-family: 'Pompiere', cursive;
+  color: #5c7a60;
+  font-size: 30px;
+  font-weight: 100;
+}
+
+footer p {
+  font-family: 'Thasadith', sans-serif;
+  font-size: 14px;
+}
+
+footer a {
+  font-family: 'Thasadith', sans-serif;
+  font-size: 14px;
+  color: #000000;
+}
+
 
 
 
@@ -266,62 +313,10 @@ td {
   /* max-width: 201px; */
 /* } */
 
-.footer-rectangle {
-  background-color: #708b75;
-  max-width: 202px;
-  padding-bottom: 200px;
-  margin-right: 5px;
-}
-
-.contact {
-  justify-content: flex-start;
-  max-width: 180px;
-  padding-top: 124px;
-  margin-right: 20px;
-}
-
-.contact a {
-  color: #000000;
-}
-
-.footer {
-  display: flex;
-  flex-direction: row-reverse;
-}
-
 /* footer div {
   background-image: url(../img/footer.svg);
   background-size: 190px;
 } */
-
-footer h2 {
-  margin-left: 0;
-  margin-top: 0;
-}
-
-.logo {
-  width: 60px;
-  margin-left: 68px;
-  margin-right: 68px;
-  margin-top: 30px;
-}
-
-footer h2 {
-  font-family: 'Pompiere', cursive;
-  color: #5c7a60;
-  font-size: 30px;
-  font-weight: 100;
-}
-
-footer p {
-  font-family: 'Thasadith', sans-serif;
-  font-size: 14px;
-}
-
-footer a {
-  font-family: 'Thasadith', sans-serif;
-  font-size: 14px;
-}
 
 /* font-family: 'Pompiere', cursive;
 font-family: 'Thasadith', sans-serif; */

@@ -109,7 +109,7 @@ div .products {
   margin-right: 55px;
 }
 
-.beans-name {
+.beans {
   font-family: 'Pompiere', cursive;
   font-size: 14px;
   color: #ded9cc;
@@ -125,7 +125,7 @@ div .products {
   margin-right: 75px;
 }
 
-.flower-name {
+.flower {
   font-family: 'Pompiere', cursive;
   font-size: 14px;
   color: #ded9cc;
@@ -161,7 +161,7 @@ main h3 {
   margin-right: 35px;
 }
 
-.pumpkin-name {
+.pumpkin {
   font-family: 'Pompiere', cursive;
   font-size: 14px;
   color: #ded9cc;
@@ -229,7 +229,7 @@ td {
   /* max-width: 201px; */
 /* } */
 
-.rectangle {
+.footer-rectangle {
   background-color: #708b75;
   max-width: 202px;
   padding-bottom: 200px;
